@@ -1,0 +1,27 @@
+{
+  "name": "apollo-graphql-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack Employee Management Application powered by Apollo GraphQL, React, Node.js, Express, and MongoDB",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "start:backend": "npm run start --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "preview:frontend": "npm run preview --prefix frontend",
+    "lint:frontend": "npm run lint --prefix frontend",
+    "seed": "node seed/index.js"
+  },
+  "keywords": [
+    "graphql",
+    "apollo-server",
+    "apollo-client",
+    "react",
+    "express",
+    "mongodb",
+    "fullstack"
+  ],
+  "author": "Jay Khatri <jay.khatri@socialpilot.co>",
+  "license": "UNLICENSED"
+}
